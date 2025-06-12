@@ -1,0 +1,17 @@
+.card {
+  width: 51rem;
+  border: 0.1rem solid #cdcdf4;
+  border-radius: 1.2rem;
+  margin-bottom: 2rem;
+  padding: 3rem 2rem;
+  background-color: #fff;
+
+  span {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.8rem;
+  }
+  .number {
+    font-size: 4.4rem;
+  }
+}

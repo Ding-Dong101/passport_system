@@ -1,0 +1,26 @@
+button {
+  color: #0505aa;
+  /* width: 100%; */
+  background-color: #f8f8ff;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  padding: 1.5rem;
+  border-radius: 0.8rem;
+  background-color: #f8f8f8;
+  color: #050582;
+  width: 16.4rem;
+  text-transform: capitalize;
+  border: 0.2rem solid #0505aa;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button:hover {
+  background-color: #e0e0e0;
+  /* color: #050582; */
+  /* border: none; */
+  outline: none;
+  cursor: pointer;
+}

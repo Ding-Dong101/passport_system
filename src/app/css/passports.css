@@ -1,0 +1,28 @@
+.Passports {
+  overflow-y: scroll;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.space-between {
+}
+.searchBox {
+  padding: 1.4rem;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 1.12rem;
+  gap: 1.2rem;
+
+  input[type="search"] {
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+    background-color: none;
+  }
+  input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+  }
+}

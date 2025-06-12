@@ -1,0 +1,224 @@
+{
+  "user": [
+    {
+      "id": "001",
+      "applicant": "Kwame Mensah",
+      "phone": "0241234567",
+      "package": "Standard",
+      "payment": "Paid",
+      "submittedBy": "Admin",
+      "date": "2025-06-01",
+      "status": "Approved",
+      "action": ["view", "edit"]
+    },
+    {
+      "id": "002",
+      "applicant": "Akua Serwaa",
+      "phone": "0209876543",
+      "package": "Express",
+      "payment": "Pending",
+      "submittedBy": "Clerk A",
+      "date": "2025-06-02",
+      "status": "Pending",
+      "action": ["view"]
+    },
+    {
+      "id": "003",
+      "applicant": "Yaw Boakye",
+      "phone": "0541112222",
+      "package": "Standard",
+      "payment": "Paid",
+      "submittedBy": "Admin",
+      "date": "2025-06-03",
+      "status": "Approved",
+      "action": ["view", "edit", "delete"]
+    },
+    {
+      "id": "004",
+      "applicant": "Ama Owusu",
+      "phone": "0503334444",
+      "package": "Premium",
+      "payment": "Paid",
+      "submittedBy": "Clerk B",
+      "date": "2025-06-04",
+      "status": "In Review",
+      "action": ["view", "update"]
+    },
+    {
+      "id": "005",
+      "applicant": "Kojo Asante",
+      "phone": "0556667777",
+      "package": "Standard",
+      "payment": "Unpaid",
+      "submittedBy": "Admin",
+      "date": "2025-06-05",
+      "status": "Pending",
+      "action": ["edit", "delete"]
+    },
+    {
+      "id": "006",
+      "applicant": "Afia Kyei",
+      "phone": "0590001111",
+      "package": "Express",
+      "payment": "Paid",
+      "submittedBy": "Clerk A",
+      "date": "2025-06-06",
+      "status": "Approved",
+      "action": ["view", "update"]
+    },
+    {
+      "id": "007",
+      "applicant": "Daniel Tetteh",
+      "phone": "0245678990",
+      "package": "Premium",
+      "payment": "Pending",
+      "submittedBy": "Admin",
+      "date": "2025-06-07",
+      "status": "In Review",
+      "action": ["view", "edit", "update"]
+    },
+    {
+      "id": "008",
+      "applicant": "Linda Owusu",
+      "phone": "0234567890",
+      "package": "Standard",
+      "payment": "Paid",
+      "submittedBy": "Clerk C",
+      "date": "2025-06-08",
+      "status": "Approved",
+      "action": ["view"]
+    },
+    {
+      "id": "009",
+      "applicant": "John Doe",
+      "phone": "0267890123",
+      "package": "Standard",
+      "payment": "Paid",
+      "submittedBy": "Clerk A",
+      "date": "2025-06-09",
+      "status": "Approved",
+      "action": ["view", "delete"]
+    },
+    {
+      "id": "010",
+      "applicant": "Jane Smith",
+      "phone": "0278901234",
+      "package": "Express",
+      "payment": "Pending",
+      "submittedBy": "Admin",
+      "date": "2025-06-10",
+      "status": "Pending",
+      "action": ["edit", "update"]
+    },
+    {
+      "id": "011",
+      "applicant": "Emmanuel Quaye",
+      "phone": "0200001234",
+      "package": "Standard",
+      "payment": "Unpaid",
+      "submittedBy": "Clerk B",
+      "date": "2025-06-11",
+      "status": "Rejected",
+      "action": ["view", "delete"]
+    },
+    {
+      "id": "012",
+      "applicant": "Mabel Anane",
+      "phone": "0501234567",
+      "package": "Premium",
+      "payment": "Paid",
+      "submittedBy": "Admin",
+      "date": "2025-06-12",
+      "status": "Approved",
+      "action": ["view", "edit", "update", "delete"]
+    },
+    {
+      "id": "013",
+      "applicant": "Kojo Bonsu",
+      "phone": "0570001112",
+      "package": "Standard",
+      "payment": "Pending",
+      "submittedBy": "Clerk A",
+      "date": "2025-06-13",
+      "status": "In Review",
+      "action": ["view", "update"]
+    },
+    {
+      "id": "014",
+      "applicant": "Abena Korkor",
+      "phone": "0249876543",
+      "package": "Express",
+      "payment": "Paid",
+      "submittedBy": "Admin",
+      "date": "2025-06-14",
+      "status": "Approved",
+      "action": ["view", "edit"]
+    },
+    {
+      "id": "015",
+      "applicant": "Yaw Adjei",
+      "phone": "0561234567",
+      "package": "Premium",
+      "payment": "Pending",
+      "submittedBy": "Clerk C",
+      "date": "2025-06-15",
+      "status": "Pending",
+      "action": ["edit"]
+    },
+    {
+      "id": "016",
+      "applicant": "Efua Boateng",
+      "phone": "0245556666",
+      "package": "Standard",
+      "payment": "Paid",
+      "submittedBy": "Admin",
+      "date": "2025-06-16",
+      "status": "Approved",
+      "action": ["view", "delete"]
+    },
+    {
+      "id": "017",
+      "applicant": "Michael Ofori",
+      "phone": "0203334445",
+      "package": "Express",
+      "payment": "Unpaid",
+      "submittedBy": "Clerk A",
+      "date": "2025-06-17",
+      "status": "Rejected",
+      "action": ["delete"]
+    },
+    {
+      "id": "018",
+      "applicant": "Angela Darko",
+      "phone": "0591122334",
+      "package": "Premium",
+      "payment": "Paid",
+      "submittedBy": "Admin",
+      "date": "2025-06-18",
+      "status": "Approved",
+      "action": ["view", "edit", "update"]
+    },
+    {
+      "id": "019",
+      "applicant": "Nana Ama",
+      "phone": "0251234567",
+      "package": "Standard",
+      "payment": "Pending",
+      "submittedBy": "Clerk B",
+      "date": "2025-06-19",
+      "status": "In Review",
+      "action": ["edit", "update"]
+    },
+    {
+      "id": "020",
+      "applicant": "Francis Mensah",
+      "phone": "0263214321",
+      "package": "Express",
+      "payment": "Paid",
+      "submittedBy": "Admin",
+      "date": "2025-06-20",
+      "status": "Approved",
+      "action": ["view"]
+    }
+  ]
+}

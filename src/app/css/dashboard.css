@@ -1,0 +1,38 @@
+.dashboard {
+  overflow-y: scroll;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+.name {
+  line-height: 3rem;
+  margin-bottom: 3rem;
+  height: max-content;
+}
+.overview {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.quickActions {
+  h4 {
+    margin-bottom: 2.4rem;
+  }
+}
+.cardsSection {
+  display: flex;
+  gap: 3rem;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+
+  h5 {
+    text-transform: capitalize;
+  }
+}

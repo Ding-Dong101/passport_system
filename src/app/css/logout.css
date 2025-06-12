@@ -1,0 +1,24 @@
+#logout {
+  color: #0505aa;
+  width: 100%;
+  background-color: #f8f8ff;
+  outline: none;
+  border: none;
+  font-weight: 800;
+  padding: 3rem 0;
+  border-top: 0.2rem solid #0505aa;
+  border-radius: none;
+  position: absolute;
+  bottom: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+#logout:hover {
+  background-color: #0505aa;
+  color: #f8f8ff;
+  border: none;
+  outline: none;
+}
