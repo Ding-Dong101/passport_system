@@ -3,22 +3,29 @@ import { useEffect, useState } from "react";
 import Buttons from "./Buttons";
 import '@/app/css/passporttable.css';
 import TableRow from "./TableRow";
+import { getFirestore, addDoc } from "firebase/firestore";
+import app from "./FORM_COMPONENTS/keys";
+import { collection, getDocs } from 'firebase/firestore';
+
+
 
 export default function TableSection() {
+    const db = getFirestore(app)
     const [passports, setPassports] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:4000/user")
-            .then(res => {
-                if (!res.ok) throw new Error("Failed to load JSON");
-                return res.json();
-            })
-            .then(data => setPassports(data))
-            .catch(err => {
-                console.error(err);
-                // alert("Error loading data: " + err.message);
-            });
-    });
+        const fetchData = async () => {
+            try {
+                const snapshot = await getDocs(collection(db, 'applicants'));
+                console.log(snapshot.doc)
+            } catch (error) {
+                console.error('Error fetching documents:', error);
+            }
+        };
+
+        fetchData();
+    }, [db]);
+
 
     return (
         <div className="tablesection">
